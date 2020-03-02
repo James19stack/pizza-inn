@@ -28,8 +28,16 @@
               <input type="text" id="address" class="form-control mb-3" placeholder="Email address" required><br>
               <label for="enter">Type your message here</label><br>
               <textarea name="message" rows="10" cols="80" id="info" placeholder="your message here..." required></textarea><br>
-              <button type="submit" class="btn btn-orange final-message">SUBMIT</button>  
+              <input type="submit" value="Submit">  
           </form>  
-        </div>          
+        </div> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"><script>
+ <script>
+            $(document).ready(function(){
+               $("form").submit(function(){
+                  alert("We have received your message");
+             });
+          });
+</script>         
 </body>
-</html>
+</html>`

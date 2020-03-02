@@ -1,3 +1,4 @@
+//Bussiness logic interface
 var price , crust_price, topping_price ;
 let total = 0;
 function Getpizza( name,size,crust,topping, total ){
@@ -9,13 +10,9 @@ function Getpizza( name,size,crust,topping, total ){
 }
 
 
-// proceed button
+// User logic Interface
 $(document).ready(function(){
-  // $("button.proceed").click(function(){
-  //   $("button.proceed").hide();
-  //   $("#information").hide();
-  //   $("div.choise").slideDown(1000);
-  // });
+
   $("button.proceed").click(function(event){
    let pname = $(".name option:selected").val();
    let psize = $("#size option:selected").val();
@@ -198,20 +195,6 @@ $(document).ready(function(){
    event.preventDefault();
   });
 });
-// document.getElementById("button").onclick =function(){
-//   Var name = ""
-//   var phone = ""
-//   var email = ""
-//   var message = ""
-  
 
-//   name=document.getElementById("name").Value
-//   phone=document.getElementById("phone").value
-//   email=document.getElementById("email").Value
-//   message = document.getElementById("info").value
-  
-//   if($("input#name").val() && $("input#phone").val() && $("input#address").val() && $("textarea#info").val()!=""){
-//     alert("We have received your message")
-// }
 
   
