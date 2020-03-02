@@ -198,20 +198,20 @@ $(document).ready(function(){
    event.preventDefault();
   });
 });
-document.getElementById("button").onclick =function(){
-  Var name = ""
-  var phone = ""
-  var email = ""
-  var message = ""
+// document.getElementById("button").onclick =function(){
+//   Var name = ""
+//   var phone = ""
+//   var email = ""
+//   var message = ""
   
 
-  name=document.getElementById("name").Value
-  phone=document.getElementById("phone").value
-  email=document.getElementById("email").Value
-  message = document.getElementById("info").value
+//   name=document.getElementById("name").Value
+//   phone=document.getElementById("phone").value
+//   email=document.getElementById("email").Value
+//   message = document.getElementById("info").value
   
-  if($("input#name").val() && $("input#phone").val() && $("input#address").val() && $("textarea#info").val()!=""){
-    alert("We have received your message")
-}
+//   if($("input#name").val() && $("input#phone").val() && $("input#address").val() && $("textarea#info").val()!=""){
+//     alert("We have received your message")
+// }
 
   
